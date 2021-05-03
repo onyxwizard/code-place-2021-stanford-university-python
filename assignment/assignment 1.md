@@ -1,11 +1,12 @@
-### Q1: Jigsaw Puzzle Karel
+# Q1: Jigsaw Puzzle Karel
 
 During quarantine, Karel has picked up a new hobby: doing puzzles! Karel is almost done with the square puzzle represented by the 4x4 grid of beepers shown below:
 
-![image of a1](https://github.com/onyxwizard/code-place-2021-stanford-university-python/blob/main/images/assignment%2011.jpeg)
+<img src="images/assignment 11.jpeg">
 
 The beeper in the bottom most row represents the last piece of the puzzle! Write a program which will get Karel to pick up the last piece, put it in place, and move Karel back to the bottom left corner of the world facing East so she can admire the completed puzzle. Here's what your end result should look like:
-![image of a2](https://github.com/onyxwizard/code-place-2021-stanford-university-python/blob/main/images/assignment%20112.jpeg)
+
+ <img src="/images/assignment 112.jpeg">
 
 To reiterate, you should write the sequence of commands so that Karel will:
 
