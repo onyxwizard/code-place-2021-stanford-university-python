@@ -2,7 +2,7 @@
 
 During quarantine, Karel has picked up a new hobby: doing puzzles! Karel is almost done with the square puzzle represented by the 4x4 grid of beepers shown below:
 
-<img src="images/assignment 11.jpeg">
+<img src="/images/assignment 11.jpeg">
 
 The beeper in the bottom most row represents the last piece of the puzzle! Write a program which will get Karel to pick up the last piece, put it in place, and move Karel back to the bottom left corner of the world facing East so she can admire the completed puzzle. Here's what your end result should look like:
 
