@@ -1,4 +1,91 @@
+#@k
+def main():
+    stone()
 
+def stone():
+    i = 20
+    while int(i)!=0:
+         for x in range(i):
+              c = int(x)%2
+              if int(c)==0:
+                   print("There are "+str(i)+" stones left")
+                   a = input("Player 1 would you like to remove 1 or 2 stones? ")
+                   if int(a)==1 or int(a)==2:
+                        print("\b")
+                        if int(a)==1 and int(i)!=0:
+                             i=int(i)-int(a)
+
+                        elif int(a)==2:
+                             if int(i)==1:
+                                  i=int(i)-1
+                                  print("\nPlayer 2 wins!")
+                                  exit()
+                             else:
+                                  i=int(i)-int(a)
+        
+                        elif int(i) == 0:
+                             print("\nPlayer 2 wins!")
+                             exit()
+                             
+                   else:
+                       a=input("Please enter 1 or 2: ")
+                       print("\b")
+                       if int(a)==1:
+                            i=int(i)-int(a)
+
+                       elif int(a)==2:
+                            if int(i)==1:
+                                 i=int(i)-1
+                                 print("\nPlayer 2 wins!")
+                                 exit()
+                            else:
+                                 i=int(i)-int(a)
+        
+                       elif int(i)==0:
+                            print("\nPlayer 2 wins!")
+                            exit()
+#B parameter 
+              else:
+                   print("There are "+str(i)+" stones left")
+                   b = input("Player 2 would you like to remove 1 or 2 stones? ")
+                   if int(b)==1 or int(b)==2:
+                        print("\b")
+                        
+                        if int(b)==1 and int(i)!=0:
+                             i=int(i)-int(b)
+                     
+                        elif int(b)==2 and int(i)!=0:
+                             if int(i)==1:
+                                  i=int(i)-1
+                                  print("\nPlayer 1 wins!")                             
+                                  exit()
+                             else:
+                                  i=int(i)-int(b)
+                        elif int(i) == 0:
+                             print("\nPlayer 1 wins!")                             
+                             exit()
+                   else:
+                        b=input("Please enter 1 or 2: ")
+                        print("\b")
+                        
+                        if int(b)==1 and int(i)!=0:
+                             i=int(i)-int(b)
+                     
+                        elif int(b)==2 and int(i)!=0:
+                             if int(i)==1:
+                                  i=int(i)-1
+                                  print("\nPlayer 1 wins!")                             
+                                  exit()
+                             else:
+                                  i=int(i)-int(b)
+                        elif int(i) == 0:
+                             print("\nPlayer 1 wins!")                             
+                             exit()
+
+if __name__ == '__main__':
+    main()
+#alternate Code
+'''
 import random
 
 def main():
@@ -35,3 +122,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+'''
